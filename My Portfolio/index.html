@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="/UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="javaxcript.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Johnny Winfred Jackson III</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="home">
+        <section class="hero">
+            <h2>Welcome to My Portfolio</h2>
+        </section>
+        <section id="projects">
+            <!-- Showcase your projects here -->
+        </section>
+    </main>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="IMG_20241110_125243_832.webp" alt="Your Photo" id="profile-photo">
+        <p>My name is Johnny Winfred Jackson III, I was born November 19,1998 and I am a student of STARZ University.</p>
+        <!-- Modal -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h3>More About Me</h3>
+                <p>I live at ELWA Rehab Community, Paynesville, Liberia.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Johnny Winfred Jackson III</p>
+    </footer>
+
+</body>
